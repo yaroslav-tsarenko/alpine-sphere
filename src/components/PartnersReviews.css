@@ -1,0 +1,184 @@
+.brand-name-esim {
+  position: relative;
+  line-height: 22px;
+}
+.trusted-major-mobile {
+  margin: 0;
+  position: relative;
+  font-size: 32px;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  color: #000;
+  display: inline-block;
+  max-width: 100%;
+}
+.image-icon,
+.image-icon1,
+.image-icon2,
+.image-icon3,
+.image-icon4,
+.image-icon5,
+.image-icon6,
+.image-icon7 {
+  height: 76px;
+  width: 150px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 72px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.image-icon1,
+.image-icon2,
+.image-icon3,
+.image-icon4,
+.image-icon5,
+.image-icon6,
+.image-icon7 {
+  left: 270px;
+}
+.image-icon2,
+.image-icon3,
+.image-icon4,
+.image-icon5,
+.image-icon6,
+.image-icon7 {
+  left: 468px;
+}
+.image-icon3,
+.image-icon4,
+.image-icon5,
+.image-icon6,
+.image-icon7 {
+  left: 666px;
+}
+.image-icon4,
+.image-icon5,
+.image-icon6,
+.image-icon7 {
+  left: 864px;
+}
+.image-icon5,
+.image-icon6,
+.image-icon7 {
+  left: 1062px;
+}
+.image-icon6,
+.image-icon7 {
+  left: 1260px;
+}
+.image-icon7 {
+  left: 1458px;
+}
+.image-icon10,
+.image-icon11,
+.image-icon12,
+.image-icon13,
+.image-icon14,
+.image-icon15,
+.image-icon8,
+.image-icon9 {
+  height: 76px;
+  width: 150px;
+  position: absolute;
+  margin: 0 !important;
+  top: 96px;
+  left: 72px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.image-icon10,
+.image-icon11,
+.image-icon12,
+.image-icon13,
+.image-icon14,
+.image-icon15,
+.image-icon9 {
+  left: 270px;
+}
+.image-icon10,
+.image-icon11,
+.image-icon12,
+.image-icon13,
+.image-icon14,
+.image-icon15 {
+  left: 468px;
+}
+.image-icon11,
+.image-icon12,
+.image-icon13,
+.image-icon14,
+.image-icon15 {
+  left: 666px;
+}
+.image-icon12,
+.image-icon13,
+.image-icon14,
+.image-icon15 {
+  left: 864px;
+}
+.image-icon13,
+.image-icon14,
+.image-icon15 {
+  left: 1062px;
+}
+.image-icon14,
+.image-icon15 {
+  left: 1260px;
+}
+.image-icon15 {
+  left: 1458px;
+}
+.partner-logos {
+  align-self: stretch;
+  height: 172px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 20px 48px;
+}
+.brand-name-esim-partners-parent {
+  width: 1680px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.partners-reviews {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 24px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #8e59ff;
+  font-family: Inter;
+}
+@media screen and (max-width: 925px) {
+  .trusted-major-mobile {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .brand-name-esim-partners-parent {
+    gap: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .trusted-major-mobile {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

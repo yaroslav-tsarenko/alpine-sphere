@@ -1,0 +1,44 @@
+.feature-icons {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.no-roaming-fees {
+  align-self: stretch;
+  position: relative;
+  line-height: 29px;
+  font-weight: 600;
+}
+.connected-to-verizon,
+.hawaii-and-alaska,
+.surprised-by-your {
+  margin: 0;
+}
+.connected-to-verizon-container {
+  position: relative;
+  font-size: 16px;
+  line-height: 135%;
+  color: #1c1c1c;
+}
+.features-list {
+  width: 394px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .no-roaming-fees {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

@@ -1,0 +1,127 @@
+.brand-name-intro1,
+.login4 {
+  position: relative;
+  line-height: 22px;
+}
+.login4 {
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 34px;
+}
+.button10 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #8e59ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button10:hover {
+  background-color: #a873ff;
+}
+.login5 {
+  position: relative;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Inter;
+  color: #8e59ff;
+  text-align: left;
+  display: inline-block;
+  min-width: 61px;
+}
+.button11,
+.login-buttons1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button11 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #f1eaff;
+  border-radius: 10px;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button11:hover {
+  background-color: #d9d1e6;
+}
+.login-buttons1 {
+  justify-content: flex-start;
+  gap: 24px;
+}
+.brand-intro1,
+.device-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.device-steps {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.brand-intro1 {
+  width: 852px;
+  justify-content: center;
+  gap: 24px;
+  min-width: 852px;
+}
+.right-bottom-icon {
+  width: 710px;
+  position: relative;
+  border-radius: 20px;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.brand-intro-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 120px;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #8e59ff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1900px) {
+  .brand-intro1,
+  .right-bottom-icon {
+    flex: 1;
+  }
+  .brand-intro-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .brand-intro1 {
+    min-width: 100%;
+  }
+  .brand-intro-parent {
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .brand-intro-parent {
+    padding: 52px 30px;
+    box-sizing: border-box;
+  }
+}

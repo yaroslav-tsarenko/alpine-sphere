@@ -1,0 +1,33 @@
+.cartdetailspage-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cartdetailspage {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 120px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .cartdetailspage {
+    gap: 60px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .cartdetailspage {
+    gap: 30px;
+  }
+}

@@ -1,0 +1,173 @@
+.dollar-store-for {
+  margin: 0;
+}
+.always-wholesale-prices {
+  margin: 0;
+  color: #1c1c1c;
+}
+.dollar-store-for-container,
+.double-the-options {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.dollar-store-for-container {
+  margin: 0;
+  font-size: 48px;
+  line-height: 110%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.double-the-options {
+  line-height: 22px;
+  color: #000;
+}
+.search-normal-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.search-a-country,
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+.search-a-country {
+  width: calc(100% - 499px);
+  border: 0;
+  outline: 0;
+  font-family: Inter;
+  font-size: 16px;
+  background-color: transparent;
+  height: 22px;
+  flex: 1;
+  position: relative;
+  line-height: 135%;
+  color: #d9d9d9;
+  text-align: center;
+  justify-content: center;
+  min-width: 121px;
+  padding: 0;
+}
+.search-bar {
+  width: 714px;
+  border-radius: 20px;
+  border: 1px solid #8e59ff;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px 464px 10px 11px;
+  gap: 12px;
+  max-width: 100%;
+}
+.local {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 41px;
+}
+.local-button,
+.regional {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.local-button {
+  cursor: pointer;
+  border: 0;
+  padding: 9px 68px;
+  background-color: #8e59ff;
+  border-radius: 16px;
+  flex-direction: row;
+}
+.local-button:hover {
+  background-color: #a873ff;
+}
+.regional {
+  width: 216px;
+  position: relative;
+  line-height: 22px;
+}
+.dollar-store-for-travel-data-a-parent,
+.location-buttons {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.location-buttons {
+  width: 410px;
+  border-radius: 20px;
+  background-color: #f1eaff;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+  gap: 0;
+  row-gap: 20px;
+  color: #8e59ff;
+}
+.dollar-store-for-travel-data-a-parent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 20px;
+  gap: 32px;
+}
+.background,
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.background {
+  flex: 1;
+  background-image: url(/public/background@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.content {
+  align-self: stretch;
+  padding: 0 0 40px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  color: #a5a6f6;
+  font-family: Inter;
+}
+@media screen and (max-width: 925px) {
+  .dollar-store-for-container {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .search-bar {
+    padding-right: 232px;
+    box-sizing: border-box;
+  }
+  .dollar-store-for-travel-data-a-parent {
+    gap: 16px;
+    padding-top: 52px;
+    padding-bottom: 52px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dollar-store-for-container {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .search-bar {
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .location-buttons {
+    flex-wrap: wrap;
+  }
+}

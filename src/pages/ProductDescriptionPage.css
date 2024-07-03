@@ -1,0 +1,72 @@
+.customer-reviews-hear1 {
+  margin: 0;
+  width: 720px;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.reviews-list {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  max-width: 100%;
+}
+.productdescriptionpage,
+.reviews-1920x1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.reviews-1920x1 {
+  align-self: stretch;
+  background-color: #f1eaff;
+  justify-content: center;
+  padding: 80px 114px 80px 120px;
+  box-sizing: border-box;
+  gap: 24px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: 32px;
+  color: #262626;
+  font-family: Inter;
+}
+.productdescriptionpage {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1425px) {
+  .reviews-1920x1 {
+    padding-left: 60px;
+    padding-right: 57px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .customer-reviews-hear1 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .reviews-1920x1 {
+    padding: 52px 28px 52px 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .customer-reviews-hear1 {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

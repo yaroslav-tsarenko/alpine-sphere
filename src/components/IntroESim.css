@@ -1,0 +1,140 @@
+.intro-placeholder-icon {
+  width: 710px;
+  position: relative;
+  border-radius: 20px;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  min-height: 529px;
+  max-width: 100%;
+}
+.brand-name-intro,
+.login1 {
+  position: relative;
+  line-height: 22px;
+}
+.login1 {
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 34px;
+}
+.button7 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #8e59ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button7:hover {
+  background-color: #a873ff;
+}
+.login2 {
+  position: relative;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Inter;
+  color: #8e59ff;
+  text-align: left;
+  display: inline-block;
+  min-width: 61px;
+}
+.button8,
+.login-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button8 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #f1eaff;
+  border-radius: 10px;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button8:hover {
+  background-color: #d9d1e6;
+}
+.login-buttons {
+  justify-content: flex-start;
+  gap: 24px;
+}
+.brand-intro,
+.device-check1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.device-check1 {
+  align-self: stretch;
+  justify-content: flex-start;
+  font-size: 18px;
+  color: #000;
+}
+.brand-intro {
+  width: 852px;
+  justify-content: center;
+  gap: 24px;
+  min-width: 852px;
+}
+.intro-container,
+.intro-e-sim {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.intro-container {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 120px;
+  gap: 20px;
+}
+.intro-e-sim {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 24px;
+  text-align: left;
+  font-size: 16px;
+  color: #8e59ff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1825px) {
+  .brand-intro,
+  .intro-placeholder-icon {
+    flex: 1;
+  }
+  .intro-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .brand-intro {
+    min-width: 100%;
+  }
+  .intro-container {
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .intro-container {
+    padding: 52px 30px;
+    box-sizing: border-box;
+  }
+}

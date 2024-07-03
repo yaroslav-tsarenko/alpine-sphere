@@ -1,0 +1,226 @@
+.buy-now1 {
+  text-decoration: underline;
+}
+.lowest-price-ever-container1 {
+  position: relative;
+  line-height: 135%;
+  white-space: nowrap;
+}
+.frame-item {
+  height: 14.7px;
+  width: 18px;
+  position: relative;
+}
+.lowest-price-ever-forever-dat-group {
+  align-self: stretch;
+  background-color: #a5a6f6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px 20.3px;
+  box-sizing: border-box;
+  gap: 7px;
+  min-height: 70px;
+}
+.mask-group-icon1 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  object-fit: cover;
+  min-height: 32px;
+}
+.alpinesphere1 {
+  position: relative;
+  line-height: 29px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.alpine-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.resources2,
+.shop-plans2 {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+}
+.shop-plans2 {
+  min-width: 74px;
+  white-space: nowrap;
+}
+.resources2 {
+  min-width: 70px;
+}
+.arrow-down-icon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.resources-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.download1,
+.explore1 {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  min-width: 66px;
+}
+.explore1 {
+  min-width: 50px;
+}
+.arrow-down-icon4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.alpine-header,
+.explore-parent,
+.shop-download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.explore-parent {
+  gap: 8px;
+}
+.alpine-header,
+.shop-download {
+  max-width: 100%;
+}
+.shop-download {
+  gap: 24px;
+  font-size: 14px;
+  color: #1c1c1c;
+}
+.alpine-header {
+  gap: 32px;
+}
+.login3,
+.sign-up1 {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+}
+.sign-up1 {
+  min-width: 50px;
+  white-space: nowrap;
+}
+.login3 {
+  font-size: 14px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  min-width: 37px;
+}
+.button9 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #8e59ff;
+  flex: 0.4353;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button9:hover {
+  background-color: #a873ff;
+}
+.global-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.en1 {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  min-width: 19px;
+}
+.arrow-down-icon5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.language {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.language,
+.plans-header,
+.sign-up-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sign-up-parent {
+  width: 266px;
+  justify-content: flex-start;
+  gap: 24px;
+  font-size: 14px;
+  color: #1c1c1c;
+}
+.plans-header {
+  align-self: stretch;
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 12px 120px;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+  font-size: 24px;
+  color: #8e59ff;
+}
+.header-wrapper,
+.header5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.header5 {
+  flex: 1;
+  flex-direction: column;
+}
+.header-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 80px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1425px) {
+  .plans-header {
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .alpine-header {
+    gap: 16px;
+  }
+  .plans-header {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+}

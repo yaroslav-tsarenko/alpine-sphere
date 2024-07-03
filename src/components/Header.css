@@ -1,0 +1,216 @@
+.buy-now2 {
+  text-decoration: underline;
+}
+.lowest-price-ever-container2 {
+  position: relative;
+  line-height: 135%;
+  white-space: nowrap;
+}
+.price-banner-child {
+  height: 14.7px;
+  width: 18px;
+  position: relative;
+}
+.price-banner {
+  align-self: stretch;
+  background-color: #a5a6f6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px 20.3px;
+  box-sizing: border-box;
+  gap: 7px;
+  min-height: 70px;
+}
+.mask-group-icon2 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  object-fit: cover;
+  min-height: 32px;
+}
+.alpinesphere2 {
+  position: relative;
+  line-height: 29px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.alpine-logo1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.resources3,
+.shop-plans3 {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+}
+.shop-plans3 {
+  min-width: 74px;
+  white-space: nowrap;
+}
+.resources3 {
+  min-width: 70px;
+}
+.arrow-down-icon6 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.plan-names {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.download2,
+.explore3 {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  min-width: 66px;
+}
+.explore3 {
+  min-width: 50px;
+}
+.arrow-down-icon7 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.plan-links,
+.plan-names1,
+.plan-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.plan-names1 {
+  gap: 8px;
+}
+.plan-links,
+.plan-navigation {
+  max-width: 100%;
+}
+.plan-links {
+  gap: 24px;
+  font-size: 14px;
+  color: #1c1c1c;
+}
+.plan-navigation {
+  gap: 32px;
+}
+.login6,
+.sign-up2 {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+}
+.sign-up2 {
+  min-width: 50px;
+  white-space: nowrap;
+}
+.login6 {
+  min-width: 37px;
+}
+.button12 {
+  flex: 0.4353;
+  border-radius: 10px;
+  background-color: #8e59ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  color: #fff;
+}
+.global-icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.en2 {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  min-width: 19px;
+}
+.arrow-down-icon8 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.auth,
+.language1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.language1 {
+  flex: 1;
+  gap: 8px;
+}
+.auth {
+  width: 266px;
+  gap: 24px;
+  font-size: 14px;
+  color: #1c1c1c;
+}
+.header6,
+.navigation {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.navigation {
+  background-color: #fff;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 120px;
+  box-sizing: border-box;
+  gap: 20px;
+  font-size: 24px;
+  color: #8e59ff;
+}
+.header6 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1275px) {
+  .navigation {
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .plan-navigation {
+    gap: 16px;
+  }
+  .navigation {
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .alpinesphere2 {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

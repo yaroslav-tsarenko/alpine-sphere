@@ -1,0 +1,96 @@
+.left-bottom-icon {
+  width: 828px;
+  position: relative;
+  border-radius: 20px;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-width: 100%;
+}
+.save-your-us {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.savings-features {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  min-height: 450px;
+  max-width: 100%;
+  gap: 20px;
+  font-size: 24px;
+}
+.save-your-us-travel-budget-wit-parent {
+  width: 828px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 25px;
+  max-width: 100%;
+}
+.bottom-content {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 120px;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+  text-align: left;
+  font-size: 32px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1900px) {
+  .bottom-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .bottom-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .save-your-us {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .bottom-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 52px 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .save-your-us {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .bottom-content {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}
